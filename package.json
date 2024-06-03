@@ -1,6 +1,6 @@
 {
   "name": "@iebh/vue-cli-plugin-tera",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vue CLI plugin that injects the TERA-tools.com proxy into a project",
   "main": "index.js",
   "keywords": [
@@ -15,6 +15,6 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "@iebh/tera-fy": "latest"
+    "@iebh/tera-fy": "^1.0.0"
   }
 }
