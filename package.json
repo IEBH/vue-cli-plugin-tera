@@ -1,0 +1,20 @@
+{
+  "name": "@iebh/vue-cli-plugin-tera",
+  "version": "0.0.0",
+  "description": "A Vue CLI plugin that injects the TERA-tools.com proxy into a project",
+  "main": "index.js",
+  "keywords": [
+    "vue",
+    "vue-cli",
+    "plugin"
+  ],
+  "author": {
+    "name": "Matt Carter",
+    "email": "m@ttcarter.com",
+    "url": "https://github.com/hash-bang"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@iebh/tera-fy": "latest"
+  }
+}
