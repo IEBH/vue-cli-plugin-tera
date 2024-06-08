@@ -1,5 +1,15 @@
+const chalk = require('chalk');
+
 module.exports = function(api, options) {
-	console.log('Loading Tera proxy');
+	let settings = {
+		onLog: (level, ...msg) => console.log(
+			level == 'INFO' ? chalk.bgBlue.black(' INFO ')
+			: chalk.bgYellow.black(' ' + level + ' '),
+			...msg,
+		),
+		...options,
+	};
+	settings.onLog('INFO', 'Using Tera proxy');
 
 	// Register a hook that runs when the dev server starts
 	api.configureDevServer(app => {
